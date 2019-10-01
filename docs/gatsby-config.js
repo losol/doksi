@@ -1,10 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Los(t) documentation`,
+    description: `Everything you need for starting with documentation as code.`,
+    author: `Ole Kristian Losvik`,
   },
   plugins: [
+    {
+      resolve: `gatsby-theme-docz`,
+      options: {
+        themeConfig: {
+          mode: `dark`,
+        },
+        ignore: ['README.md', 'LICENSE.md'],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
