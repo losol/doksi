@@ -4,4 +4,4 @@ route: /
 ---
 # Doczy documentation starter
 ## Sample code
-Bla bla.
+Bla bla bla.
