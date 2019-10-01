@@ -4,6 +4,7 @@ module.exports = {
     description: `Everything you need for starting with documentation as code.`,
     author: `Ole Kristian Losvik`,
   },
+  pathPrefix: "/doczy",
   plugins: [
     {
       resolve: `gatsby-theme-docz`,
