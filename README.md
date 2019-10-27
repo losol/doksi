@@ -1,6 +1,6 @@
 # Doczy
 
-A starter for adding documentation as code to a project. 
+A starter for adding documentation as code to a project. This documentation template is built on Gatsby v2 with Docz theme. You will also find a Travis configuration for automatic deployment to Github pages. 
 
 ## Add automatic deployment with Travis CI
 
