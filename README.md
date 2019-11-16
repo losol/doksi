@@ -32,8 +32,8 @@ deploy:
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   local_dir: docs/public
-  target_branch: source
+  target_branch: master
   keep-history: true
   on:
-    branch: master
+    branch: source
  ```
