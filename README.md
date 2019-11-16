@@ -2,6 +2,18 @@
 
 A starter for adding documentation as code to a project. This documentation template is built on Gatsby v2 with Docz theme. You will also find a Travis configuration for automatic deployment to Github pages. 
 
+After creating a new repository you will need to update the `/docs/package.json` file with links to your own repository: 
+
+```
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/doczy"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/doczy/issues"
+  }
+```
+
 ## Add automatic deployment with Travis CI
 
 1. Add a new Github access token here: Setting > Developer settings > Personal access tokens
