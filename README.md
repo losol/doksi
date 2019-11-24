@@ -14,14 +14,10 @@ After creating a new repository you will need to update the `/docs/package.json`
   }
 ```
 
+## Add automatic deployment with Github Actions
+Take a look on the sample workflow for adding automatic deployments.
 
 ## Add automatic deployment with Travis CI
-
-1. Add a new Github access token here: Setting > Developer settings > Personal access tokens
-1. Save your personal access token as an environment variable named `GITHUB_TOKEN`.
-
-
-### Add automatic deployment with Travis CI
 
 1. Add `.travis.yml`
 1. Add a new Github access token here: Setting > Developer settings > Personal access tokens
@@ -42,28 +38,16 @@ Install github pages: `npm install gh-pages --save-dev`
 Add a script to deploy pages in package.json: 
 ```
     "scripts": {
-        "deploy": "gatsby build && gh-pages -d public -b master",
+        "deploy:githubpages:org": "gatsby build && gh-pages -d public -b master",
     }
 ```
 
-To deploy, just run `npm run deploy`.
+To deploy, just run `npm run deploy:githubpages:org`.
 
 If you are using automatic deployments by Travis, change .travis.yml to 
 
 ```
-language: node_js
-node_js:
-  - "stable"
-cache:
-  directories:
-  - node_modules
-before_script:
-  - "cd docs"
-  - "npm install"
-script:
-  - "npm run test"
-after_success:
-  - "npm run deploy"
+// code omitted for brevity
 deploy:
   provider: pages
   skip-cleanup: true
