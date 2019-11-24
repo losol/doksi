@@ -2,6 +2,9 @@
 name: An introduction
 route: /
 ---
-# Doczy documentation starter
+
+# Doksi documentation starter
+
 ## Sample code
+
 Bla bla bla.

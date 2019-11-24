@@ -4,7 +4,7 @@ module.exports = {
     description: `Everything you need for starting with documentation as code.`,
     author: `Ole Kristian Losvik`,
   },
-  pathPrefix: "/doczy",
+  pathPrefix: "/doksi",
   plugins: [
     {
       resolve: `gatsby-theme-docz`,
@@ -12,7 +12,7 @@ module.exports = {
         themeConfig: {
           mode: `light`,
         },
-        ignore: ['README.md', 'LICENSE.md'],
+        ignore: ["README.md", "LICENSE.md"],
       },
     },
     `gatsby-plugin-react-helmet`,
