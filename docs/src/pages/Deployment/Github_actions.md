@@ -12,7 +12,7 @@ Create a new file in your source repository, named `.github/workflows/deploy_doc
 
 It could contain an action with this steps:
 
-```
+```yaml
 name: Deploy documentation
 
 on:
