@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-theme-docz`,
       options: {
         themeConfig: {
-          mode: `dark`,
+          mode: `light`,
         },
         ignore: ['README.md', 'LICENSE.md'],
       },
