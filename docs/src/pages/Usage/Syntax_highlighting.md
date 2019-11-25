@@ -28,3 +28,8 @@ C#
 IEnumerable<string> letters = new List<string> { "O", "L", "E" };
 int count = letters.Count();  // count: 3
 ```
+
+```cs
+IEnumerable<string> letters = new List<string> { "O", "L", "E" };
+int count = letters.Count();  // count: 3
+```
