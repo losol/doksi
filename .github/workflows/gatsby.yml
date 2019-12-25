@@ -24,6 +24,6 @@ jobs:
         continue-on-error: false
         run: npm run test
 
-      - name: Deploy pages
+      - name: Build pages
         working-directory: ./docs
         run: npx gatsby build --prefix-paths
