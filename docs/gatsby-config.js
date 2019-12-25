@@ -23,6 +23,13 @@ module.exports = {
           mode: `light`,
         },
         ignore: ["README.md", "LICENSE.md"],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: "gatsby-remark-vscode",
+            // OPTIONAL
+            options: {}
+          }
+        ]
       },
     },
 
