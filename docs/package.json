@@ -5,26 +5,26 @@
   "version": "1.0.0",
   "author": "Ole Kristian Losvik",
   "dependencies": {
-    "docz": "2.2.0",
-    "gatsby": "^2.18.17",
-    "gatsby-image": "^2.2.37",
-    "gatsby-plugin-manifest": "^2.2.34",
-    "gatsby-plugin-offline": "^3.0.30",
-    "gatsby-plugin-react-helmet": "^3.1.18",
-    "gatsby-plugin-sharp": "^2.3.10",
-    "gatsby-remark-vscode": "^1.4.0",
-    "gatsby-source-filesystem": "^2.1.43",
-    "gatsby-theme-docz": "^2.2.0",
-    "gatsby-transformer-remark": "2.6.45",
-    "gatsby-transformer-sharp": "^2.3.9",
+    "docz": "2.3.1",
+    "gatsby": "^2.23.1",
+    "gatsby-image": "^2.4.6",
+    "gatsby-plugin-manifest": "^2.4.10",
+    "gatsby-plugin-offline": "^3.2.8",
+    "gatsby-plugin-react-helmet": "^3.3.3",
+    "gatsby-plugin-sharp": "^2.6.10",
+    "gatsby-remark-vscode": "^2.1.1",
+    "gatsby-source-filesystem": "^2.3.10",
+    "gatsby-theme-docz": "^2.3.1",
+    "gatsby-transformer-remark": "2.8.14",
+    "gatsby-transformer-sharp": "^2.5.4",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1",
-    "prettier": "^1.19.1"
+    "gh-pages": "^3.0.0",
+    "prettier": "^2.0.5"
   },
   "keywords": [
     "gatsby"
